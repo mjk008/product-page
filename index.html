@@ -298,7 +298,24 @@ input:hover
     </section>
     
     <script src="https://salty-thicket-34614.herokuapp.com/modules/channel-web/inject.js"></script>
-    <script>window.botpressWebChat.init({ host: 'https://salty-thicket-34614.herokuapp.com' })</script>
+    <script>
+    
+    window.botpressWebChat.init({
+  host: 'https://salty-thicket-34614.herokuapp.com',
+  botName: 'ZEBBIE', 
+  botAvatarUrl: null,
+  botConvoTitle: 'Support',
+  botConvoDescription: '',
+  backgroundColor: '#ffffff',
+  textColorOnBackground: '#666666',
+  foregroundColor: '#0176ff',
+  textColorOnForeground: '#ffffff',
+  showUserName: false,
+  showUserAvatar: false,
+  enableTranscriptDownload: false
+})
+    
+    </script>
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
